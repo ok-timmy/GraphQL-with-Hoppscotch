@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "platformatic start",
+    "migrate": "platformatic db migrations apply"
+  },
+  "devDependencies": {
+    "fastify": "^4.19.2"
+  },
+  "dependencies": {
+    "@platformatic/sql-graphql": "^0.28.1",
+    "@platformatic/sql-mapper": "^0.28.1",
+    "platformatic": "^0.28.1"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=19"
+  }
+}
